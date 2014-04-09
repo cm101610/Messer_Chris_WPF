@@ -1,7 +1,7 @@
-//Expressions - Concatenating Strings
+//Sparky is X human years old which is X in dog years.
 
-var firstName = "Kermit";
-var lastName = "The Frog";
-var fullName = firstName + " " + lastName;
+var dogYears = 7;
+var humanYears = 4;
+var result = humanYears * dogYears;
 
-console.log(fullName);
+console.log(result);
