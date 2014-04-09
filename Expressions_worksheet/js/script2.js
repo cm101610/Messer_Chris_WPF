@@ -1,6 +1,6 @@
-var noSlices = 8;
-var noPeople = 10;
-var noPizza = 6;
+var noSlices = 5.6;
+var noPeople = 11;
+var noPizza = 13;
 
 var result = (noPizza * noSlices)/ noPeople;
 
