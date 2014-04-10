@@ -1,6 +1,6 @@
 //Determining the Production Cost for a Client
 //Begin by identifying how much customers are looking to spend.
-var voiceArray = prompt("So you wanna make a commercial for your business? \n\nWell you've come to the right place! \n\nHow much would you like to spend for Voice Over production in your commercial?");
+var voiceArray = prompt("So you wanna make a commercial for your business? \n\nWell you've come to the right place! \n\nHow much would you like to spend for Voiceover production in your commercial? \n\nVoiceover is $100 per minute. \n\nPlease enter the total amount you wish to spend. \n\nIf you don't want Voiceover in your commercail, please enter 0.");
 
 //Prompt tested, working
 
@@ -16,6 +16,8 @@ var logoArray = prompt("Would you like us to create a logo for you? \n\nIf so, p
 
 //Fianlly, do you wish to include background music in your commercial?
 var musicArray = prompt("Finally, would you like to include background music in your production? \n\nBackground music costs $50 per tracks selected. \n\nIf you don't wish to include background music, please enter 0.");
+
+//Prompt tested, working
 
 //Arrays are based on customer input at the site.
 var myArray = new Array();
