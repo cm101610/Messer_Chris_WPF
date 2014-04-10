@@ -21,3 +21,7 @@ var madLib4 = prompt("Please type and Male Celebrity in the box below.");
 var madLib5 = prompt("Please type and Male Celebrity in the box below.");
 
 //Ran script, prompt ok
+
+var madLib6 = prompt("Please type and Noun in the box below.");
+
+//Ran script, prompt ok
