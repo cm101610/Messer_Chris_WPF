@@ -34,4 +34,4 @@ var totalCost = totalYard * .25;
 
 //console.log(totalCost);
 
-var totalYard = prompt("The total area of your front yard is " + frontYard + " sq. in. and the total area of your back yard is " + backYard + " sq. in. \n\nFor a grandtotal of " + totalYard + " sq. in.");
+var totalYard = prompt("The total area of your front yard is " + frontYard + " sq. in. and the total area of your back yard is " + backYard + " sq. in. \n\nFor a grandtotal of " + totalYard + " sq. in.\n\nThe total cost for mowing your lawn will be $" + totalCost);
