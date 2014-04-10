@@ -1,13 +1,19 @@
 //Determining the Production Cost for a Client
-
+//Begin by identifying how much customers are looking to spend.
 var voiceArray = prompt("So you wanna make a commercial for your business? \n\nWell you've come to the right place! \n\nHow much would you like to spend for Voice Over production in your commercial?");
 
 //Prompt tested, working
 
+//Then see the number of photographs and videos they wish to include in the commercail.
 var photoArray = prompt("How many photos/videos do you with to include in your commercial? \n\nEach photo/video is $5.00 each.");
 
 //Prompt tested, working
 
+//Next, does the customer need a logo, if so, how many.
+var logoArray = prompt("Would you like us to create a logo for you? \n\nIf so, please enter the number of logos you would like created in the space below. \n\nEach logo is $150 each. \n\nTo pass on the logo creation, please enter 0.");
+
+//Prompt tested, working
+//Arrays are based on customer input at the site.
 var myArray = new Array();
 myArray[0] = voiceArray;
 myArray[1] = photoArray * 5;
