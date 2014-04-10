@@ -34,3 +34,6 @@ var madLib8 = prompt("Please type and Noun in the box below.");
 
 //Ran script, prompt ok
 
+var madLib9 = prompt("Please type and Noun in the box below.");
+
+//Ran script, prompt ok
