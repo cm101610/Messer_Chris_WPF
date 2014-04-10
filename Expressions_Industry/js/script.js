@@ -15,7 +15,7 @@ var logoArray = prompt("Would you like us to create a logo for you? \n\nIf so, p
 //Prompt tested, working
 
 //Fianlly, do you wish to include background music in your commercial?
-var musicArray = prompt("Finally, would you like to include background music in your production? \n\nBackground music costs $50 per tracks selected. \n\nIf you don't wish to include background music, please enter 0.");
+var musicArray = prompt("Finally, would you like to include background music in your production? \n\nBackground music costs $50 per tracks selected. \n\nHow many tracks would you like to include?  If you don't wish to include background music, please enter 0.");
 
 //Prompt tested, working
 
@@ -25,8 +25,15 @@ myArray[0] = voiceArray;
 myArray[1] = photoArray * 5;
 myArray[2] = logoArray * 150;
 myArray[3] = musicArray * 50;
+myArray[4] = myArray[0] + myArray[1] + myArray[2] + myArray[3];
 
 //console.log(myArray[0]);
 //console.log(myArray[1]);
 //console.log(myArray[2]);
 //console.log(myArray[3]);
+
+var totalProduction = alert("So, you wish to spend $" + myArray[0] + " on Voiceover costs. \n\nYou are looking to spend $" + myArray[1] + " on adding Photos and Videos to your commercial. \n\nYou are also interested in spending $" + myArray[2] + " for logo production. \n\nYou are going with $" + myArray[3] + " on background music for your commercial.  \n\nIf this is correct, click OK.");
+
+var thankYou = prompt("Great! \n\nA representative will contact you soon, please enter your contact number in the space provided. \n\nWe are looking forward to working with your advertising needs.");
+
+console.log(thankYou);
