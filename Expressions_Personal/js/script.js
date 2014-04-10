@@ -29,3 +29,5 @@ var backYard = backWidth * backLength; //calculation works with console.log(fron
 var totalYard = frontYard + backYard;
 
 //console.log(totalYard);
+
+var totalYard = prompt("The total area of your front yard is " + frontYard + " sq. in. and the total area of your back yard is " + backYard + "sq. in. \n\nFor a grandtotal of " + totalYard + ".");
