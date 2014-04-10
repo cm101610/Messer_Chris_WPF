@@ -4,7 +4,11 @@ var voiceArray = prompt("So you wanna make a commercial for your business? \n\nW
 
 //Prompt tested, working
 
+var photoArray = prompt("How many photos/videos do you with to include in your commercial? \n\nEach photo/video is $5.00 each.");
+
+//Prompt tested, working
+
 var myArray = new Array();
 myArray[0] = voiceArray;
 
-console.log(myArray[0]);
+//console.log(myArray[0]);
