@@ -37,6 +37,3 @@ var totalProduction = alert("So, you wish to spend $" + myArray[0] + " on Voiceo
 var thankYou = prompt("Great! \n\nA representative will contact you soon, please enter your contact number in the space provided. \n\nWe are looking forward to working with your advertising needs.");
 
 console.log(thankYou);
-
-var goodBye = alert("You entered " + thankYou ".");
-console.log(goodBye);
