@@ -3,5 +3,9 @@ var noPeople = 10;
 var noPizza = 6;
 
 var result = (noPizza * noSlices)/ noPeople;
+var remainder = 48 % 10;
 
-console.log(result);
+var string1 = "Sparky got "
+var string2 = " slices of pizza."
+
+console.log(string1 + remainder + string2);
