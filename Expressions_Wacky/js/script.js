@@ -53,3 +53,7 @@ var madLib12 = prompt("Please type and Plural Animal in the box below.");
 var madLib13 = prompt("Please type and Plural Noun in the box below.");
 
 //Ran script, prompt ok
+
+var madLib14 = prompt("Please type and Verb Ending in -ING in the box below.");
+
+//Ran script, prompt ok
