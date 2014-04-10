@@ -11,4 +11,4 @@ var string1 = "You have spent a total of $";
 var string2 = " on groceries over 5 weeks.  That is an average of $";
 var string3 = " per week."
 
-console.log(totalavg);
+console.log(string1 + total + string2 + totalavg + string3);
