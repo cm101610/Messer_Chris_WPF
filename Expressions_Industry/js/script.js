@@ -23,6 +23,7 @@ var musicArray = prompt("Finally, would you like to include background music in 
 var myArray = new Array();
 myArray[0] = voiceArray;
 myArray[1] = photoArray * 5;
+myArray[2] = logoArray * 150;
 
 //console.log(myArray[0]);
 //console.log(myArray[1]);
