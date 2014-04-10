@@ -10,7 +10,7 @@ var frontLength = prompt("Next, what is the length of the longest portion of you
 
 var frontYard = frontWidth * frontLength; //calculation works with console.log(frontYard)
 
-console.log(frontYard);
+//console.log(frontYard);
 
 var backWidth = prompt("Now, please tell us the width of the longest portion of your back yard.");
 
@@ -22,8 +22,10 @@ var backLength = prompt("Thank you! \n\nFinally, please tell us the lenght of th
 
 var backYard = backWidth * backLength; //calculation works with console.log(frontYard)
 
-console.log(frontYard);
+//console.log(frontYard);
 
 //Computation for totalYard area and alert to customer of total area.  Console.log for the console notification.
 
 var totalYard = frontYard + backYard;
+
+//console.log(totalYard);
