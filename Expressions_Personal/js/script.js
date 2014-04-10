@@ -34,6 +34,6 @@ var totalCost = totalYard * .02;
 
 //console.log(totalCost);
 
-console.log(totalCost);
+console.log("The total cost for mowing your lawn will be $" + totalCost + ".");
 
 var totalYard = alert("The total area of your front yard is " + frontYard + " sq. feet and the total area of your back yard is " + backYard + " sq. feet. \n\nFor a grand total of " + totalYard + " sq. feet.\n\nThe total cost for mowing your lawn will be $" + totalCost);
