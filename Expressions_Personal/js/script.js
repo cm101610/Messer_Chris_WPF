@@ -30,7 +30,7 @@ var totalYard = frontYard + backYard;
 
 //console.log(totalYard);
 
-var totalCost = totalYard * .02;
+var totalCost = totalYard * .10;
 
 //console.log(totalCost);
 
