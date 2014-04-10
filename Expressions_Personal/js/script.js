@@ -1,0 +1,3 @@
+//Beginning with var inputs
+
+var frontWidth = prompt("We are going to provide you an estimate for mowing your lawn.  \n\nPlease tell us the width of the longest portion of your front lawn, in inches.");
