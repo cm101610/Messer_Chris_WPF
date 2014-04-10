@@ -1,6 +1,6 @@
 //Beginning with var inputs
 
-var frontWidth = prompt("We are going to provide you an estimate for mowing your lawn.  \n\nPlease tell us the width of the longest portion of your front lawn, in feet.");
+var frontWidth = prompt("We are going to provide you with an estimate for mowing your lawn.  \n\nPlease tell us the width of the longest portion of your front lawn, in feet.");
 
 //Tested and prompt works.
 
@@ -16,7 +16,7 @@ var backWidth = prompt("Now, please tell us the width of the longest portion of 
 
 //Tested and prompt works.
 
-var backLength = prompt("Thank you! \n\nFinally, please tell us the lenght of the longest portion of your back yard, in feet.");
+var backLength = prompt("Thank you! \n\nFinally, please tell us the length of the longest portion of your back yard, in feet.");
 
 //Tested and prompt works.
 
