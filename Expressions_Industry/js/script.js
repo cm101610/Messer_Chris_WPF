@@ -20,6 +20,7 @@ var musicArray = prompt("Finally, would you like to include background music in 
 //Prompt tested, working
 
 var groovyAlert = alert("Groovy!!  We got all the info, please click OK to continue.");
+console.log(groovyAlert);
 
 //Arrays are based on customer input at the site.
 var myArray = new Array();
