@@ -7,4 +7,8 @@ grocerySpend [4]);
 
 var totalavg = total/5;
 
+var string1 = "You have spent a total of $";
+var string2 = " on groceries over 5 weeks.  That is an average of $";
+var string3 = " per week."
+
 console.log(totalavg);
