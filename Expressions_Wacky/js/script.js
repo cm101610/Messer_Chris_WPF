@@ -9,3 +9,15 @@ var madLib1 = prompt("Please type and Adjective in the box below.");
 var madLib2 = prompt("Please type and Adjective in the box below.");
 
 //Ran script, prompt ok
+
+var madLib3 = prompt("Please type and Male Celebrity in the box below.");
+
+//Ran script, prompt ok
+
+var madLib4 = prompt("Please type and Male Celebrity in the box below.");
+
+//Ran script, prompt ok
+
+var madLib5 = prompt("Please type and Male Celebrity in the box below.");
+
+//Ran script, prompt ok
