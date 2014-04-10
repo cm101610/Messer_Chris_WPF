@@ -10,5 +10,7 @@ var photoArray = prompt("How many photos/videos do you with to include in your c
 
 var myArray = new Array();
 myArray[0] = voiceArray;
+myArray[1] = photoArray * 5;
 
 //console.log(myArray[0]);
+//console.log(myArray[1]);
