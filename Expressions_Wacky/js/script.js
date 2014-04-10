@@ -45,3 +45,7 @@ var madLib10 = prompt("Please type and Number in the box below.");
 var madLib11 = prompt("Please type and Part of the Body in the box below.");
 
 //Ran script, prompt ok
+
+var madLib12 = prompt("Please type and Plural Animal in the box below.");
+
+//Ran script, prompt ok
