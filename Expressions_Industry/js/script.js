@@ -24,6 +24,7 @@ var myArray = new Array();
 myArray[0] = voiceArray;
 myArray[1] = photoArray * 5;
 myArray[2] = logoArray * 150;
+myArray[3] = musicArray * 50;
 
 //console.log(myArray[0]);
 //console.log(myArray[1]);
