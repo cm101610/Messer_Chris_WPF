@@ -13,6 +13,10 @@ var photoArray = prompt("How many photos/videos do you with to include in your c
 var logoArray = prompt("Would you like us to create a logo for you? \n\nIf so, please enter the number of logos you would like created in the space below. \n\nEach logo is $150 each. \n\nTo pass on the logo creation, please enter 0.");
 
 //Prompt tested, working
+
+//Fianlly, do you wish to include background music in your commercial?
+var musicArray = prompt("Finally, would you like to include background music in your production? \n\nBackground music costs $50 per tracks selected. \n\nIf you don't wish to include background music, please enter 0.");
+
 //Arrays are based on customer input at the site.
 var myArray = new Array();
 myArray[0] = voiceArray;
