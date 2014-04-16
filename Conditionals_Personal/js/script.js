@@ -22,3 +22,5 @@ if(bagsSugar >= 10){
 	console.log("BOGUS!!  You should have at least 10 bags of sugar to make the right mixture.");
 }
 //prompt 2 tested and working properly, showing reply in console
+
+//prompt 3 asking how many lemons the user has
