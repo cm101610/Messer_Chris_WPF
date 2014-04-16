@@ -25,3 +25,5 @@ if(bagsSugar >= 10){
 
 //prompt 3 asking how many lemons the user has
 var numberLemons = prompt("How many lemons do you have to prepare your lemonade?");
+
+//if user has 50 or more lemons, show open stand reply, if less than 50, show help with laundry reply
