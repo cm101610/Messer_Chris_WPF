@@ -5,3 +5,8 @@
 var tempOutside = prompt("What is the current temperature outside?");
 
 //if tempOutside is greater or equal to 70 degrees, you can open, otherwise help mom with laundry
+if(tempOutside >= 70){
+	console.log("GREAT!!  The weather is perfect for lemonade!!");
+}else{
+	console.log("BUMMER!!  You better stay inside, you should wait until it's at least 70 outside.");
+}
