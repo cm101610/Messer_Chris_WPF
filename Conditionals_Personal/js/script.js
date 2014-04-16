@@ -11,3 +11,7 @@ if(tempOutside >= 70){
 	console.log("BUMMER!!  You better stay inside, you should wait until it's at least 70 outside.");
 }
 //prompt 1 tested and working properly, showing reply in console
+
+//prompt 2 asking user how many bags of sugar they have
+var bagsSugar = prompt("How many bags of sugar do you have?");
+
