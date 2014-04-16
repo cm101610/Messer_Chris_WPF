@@ -27,3 +27,8 @@ if(bagsSugar >= 10){
 var numberLemons = prompt("How many lemons do you have to prepare your lemonade?");
 
 //if user has 50 or more lemons, show open stand reply, if less than 50, show help with laundry reply
+if(numberLemons >= 50){
+	console.log("WHEN LIFE HANDS YOU LEMONS, MAKE LEMONADE!!  You have plenty of lemons to work with!");
+}else{
+	console.log("NOT COOL!!  You need at least 50 lemons to make the best mixture.");
+}
