@@ -15,3 +15,4 @@ if(tempOutside >= 70){
 //prompt 2 asking user how many bags of sugar they have
 var bagsSugar = prompt("How many bags of sugar do you have?");
 
+//if bagsSugar is greater or equal to 10, you can open, otherwise help mom with laundry
