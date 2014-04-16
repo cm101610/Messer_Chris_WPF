@@ -33,3 +33,6 @@ if(numberLemons >= 50){
 	console.log("NOT COOL!!  You need at least 50 lemons to make the best mixture.");
 }
 //prompt 3 tested and working properly, showing reply in console
+
+//Determine based on inputs whether this is the best situation for selling lemonade
+//if all var's are TRUE, then looks like we're ready to sell, otherwise, not the ideal situation
