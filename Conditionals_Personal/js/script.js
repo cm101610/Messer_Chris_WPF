@@ -16,3 +16,8 @@ if(tempOutside >= 70){
 var bagsSugar = prompt("How many bags of sugar do you have?");
 
 //if bagsSugar is greater or equal to 10, you can open, otherwise help mom with laundry
+if(bagsSugar >= 10){
+	console.log("THAT'S SWEET!!  You have penty of sugar to make lemonade!!");
+}else{
+	console.log("BOGUS!!  You should have at least 10 bags of sugar to make the right mixture.");
+}
