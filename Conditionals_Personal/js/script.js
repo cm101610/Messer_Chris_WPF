@@ -40,4 +40,4 @@ if(tempOutside >= 70 && bagsSugar >= 10 && numberLemons >= 50){
 	console.log("Looks like we're ready to sell some lemonade!!");
 }else{
 	console.log("Not the ideal situation for selling lemonade today, maybe you should go back to bed.");
-}
+}//final test and working properly, showing reply in console.
