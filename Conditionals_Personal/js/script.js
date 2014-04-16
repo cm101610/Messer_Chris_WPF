@@ -36,3 +36,8 @@ if(numberLemons >= 50){
 
 //Determine based on inputs whether this is the best situation for selling lemonade
 //if all var's are TRUE, then looks like we're ready to sell, otherwise, not the ideal situation
+if(tempOutside >= 70 && bagsSugar >= 10 && numberLemons >= 50){
+	console.log("Looks like we're ready to sell some lemonade!!");
+}else{
+	console.log("Not the ideal situation for selling lemonade today, maybe you should go back to bed.");
+}
