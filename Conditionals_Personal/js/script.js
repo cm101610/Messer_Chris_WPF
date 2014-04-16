@@ -32,3 +32,4 @@ if(numberLemons >= 50){
 }else{
 	console.log("NOT COOL!!  You need at least 50 lemons to make the best mixture.");
 }
+//prompt 3 tested and working properly, showing reply in console
