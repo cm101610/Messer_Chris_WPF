@@ -3,3 +3,5 @@
 
 //Begining with golfAvg being 75 to check to see if code is working correctly.
 var golfAvg = 75
+
+//Adding IF/ELSE statement to determine if the user is good enough for the league
