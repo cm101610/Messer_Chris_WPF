@@ -18,6 +18,7 @@ if(!isNaN(clientSpend)){
 	//Prompt again to type in a number
 	console.log("ELSE Statement");
 	//console.log("ELSE Statement");
+	clientSpend=prompt("You didn't enter a number to represent your budget.\n\nPlease enter a number to let us know your current spending budget.");
 }
 
 if(clientSpend >= deluxeSpend){
