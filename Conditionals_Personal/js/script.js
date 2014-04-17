@@ -26,6 +26,17 @@ if(tempOutside >= 70){
 //prompt 2 asking user how many bags of sugar they have
 var bagsSugar = prompt("How many bags of sugar do you have?");
 
+//Validate that the user enters something
+if(!isNaN(bagsSugar)){
+	console.log("Inside of the IF Statement");
+}else{
+	//The user did not type in a number
+	//Prompt again to type in a number
+	console.log("Inside the ELSE Statement");
+
+	bagsSugar=prompt("You didn't enter a number for bags of sugar you currently have.\n\nPlease enter a number for the bags of sugar.");
+}
+
 //if bagsSugar is greater or equal to 10, you can open, otherwise help mom with laundry
 if(bagsSugar >= 10){
 	console.log("THAT'S SWEET!!  You have penty of sugar to make lemonade!!");
@@ -36,6 +47,17 @@ if(bagsSugar >= 10){
 
 //prompt 3 asking how many lemons the user has
 var numberLemons = prompt("How many lemons do you have to prepare your lemonade?");
+
+//Validate that the user enters something
+if(!isNaN(numberLemons)){
+	console.log("Inside of the IF Statement");
+}else{
+	//The user did not type in a number
+	//Prompt again to type in a number
+	console.log("Inside the ELSE Statement");
+
+	numberLemons=prompt("You didn't enter a number for amount of lemons you have.\n\nPlease enter a number for the amount of lemons you have.");
+}
 
 //if user has 50 or more lemons, show open stand reply, if less than 50, show help with laundry reply
 if(numberLemons >= 50){
