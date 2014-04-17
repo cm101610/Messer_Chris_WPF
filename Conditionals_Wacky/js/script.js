@@ -2,7 +2,7 @@
 //Code will determine whether or not someone can join our golf league based upon average score per round.
 
 //Begining with golfAvg being 75 to check to see if code is working correctly.
-var golfAvg = 75
+var golfAvg = 83
 
 //Adding IF/ELSE statement to determine if the user is good enough for the league
 if(golfAvg <= 82){
