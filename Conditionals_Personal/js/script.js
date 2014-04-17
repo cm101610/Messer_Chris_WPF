@@ -6,11 +6,11 @@ var tempOutside = prompt("What is the current temperature outside?");
 
 //Validate that the user enters something
 if(!isNaN(tempOutside)){
-	console.log("Inside of the IF Statement");
+	//console.log("Inside of the IF Statement");
 }else{
 	//The user did not type in a number
 	//Prompt again to type in a number
-	console.log("Inside the ELSE Statement");
+	//console.log("Inside the ELSE Statement");
 
 	tempOutside=prompt("You didn't enter a number for the temperature.\n\nPlease enter a number for the current temperature.");
 }
@@ -28,11 +28,11 @@ var bagsSugar = prompt("How many bags of sugar do you have?");
 
 //Validate that the user enters something
 if(!isNaN(bagsSugar)){
-	console.log("Inside of the IF Statement");
+	//console.log("Inside of the IF Statement");
 }else{
 	//The user did not type in a number
 	//Prompt again to type in a number
-	console.log("Inside the ELSE Statement");
+	//console.log("Inside the ELSE Statement");
 
 	bagsSugar=prompt("You didn't enter a number for bags of sugar you currently have.\n\nPlease enter a number for the bags of sugar.");
 }
@@ -50,11 +50,11 @@ var numberLemons = prompt("How many lemons do you have to prepare your lemonade?
 
 //Validate that the user enters something
 if(!isNaN(numberLemons)){
-	console.log("Inside of the IF Statement");
+	//console.log("Inside of the IF Statement");
 }else{
 	//The user did not type in a number
 	//Prompt again to type in a number
-	console.log("Inside the ELSE Statement");
+	//console.log("Inside the ELSE Statement");
 
 	numberLemons=prompt("You didn't enter a number for amount of lemons you have.\n\nPlease enter a number for the amount of lemons you have.");
 }
