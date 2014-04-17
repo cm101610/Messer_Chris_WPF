@@ -4,8 +4,12 @@
 
 //clientSpend prompt asking user for what they are looking to spend
 var clientSpend = prompt("Hello, how much do you have budgeted for your production cost?");
+//code tested after changing to prompt and still working correctly based on input from customer.
 var standardSpend = 250
 var deluxeSpend = 350
+
+//Need validation added to determine if the customer input a number.
+
 
 if(clientSpend >= deluxeSpend){
 	//Production can begin
