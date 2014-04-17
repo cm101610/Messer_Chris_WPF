@@ -11,6 +11,10 @@ var deluxeSpend = 350
 //Need validation added to determine if the customer input a number.
 if(isNan(clientSpend)){
 	console.log("IF Statement");
+}}else{
+	//The user did not type in a number
+	//Prompt again to type in a number
+	console.log("ELSE Statement");
 }
 
 if(clientSpend >= deluxeSpend){
