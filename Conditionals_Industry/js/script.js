@@ -6,3 +6,7 @@
 var clientSpend = 270
 var standardSpend = 250
 var deluxeSpend = 350
+
+if(clientSpend >= deluxeSpend){
+	//Production can begin
+	console.log("Let's get the ball rolling and start the production!!");
