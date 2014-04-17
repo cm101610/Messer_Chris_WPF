@@ -9,14 +9,12 @@ var standardSpend = 250
 var deluxeSpend = 350
 
 //Need validation added to determine if the customer input a number.
-if(!isNan(clientSpend)){
 	console.log("IF Statement");
 if(!isNaN(clientSpend)){
 	//console.log("IF Statement");
 }else{
 	//The user did not type in a number
 	//Prompt again to type in a number
-	console.log("ELSE Statement");
 	//console.log("ELSE Statement");
 	clientSpend=prompt("You didn't enter a number to represent your budget.\n\nPlease enter a number to let us know your current spending budget.");
 }
