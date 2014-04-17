@@ -17,4 +17,4 @@ if(clientSpend >= deluxeSpend){
 }else{
 	//Sorry, your budget is below the standard production package, not recommended
 	console.log("We're sorry, but your budget is below our standard production cost.  We are more than happy to discuss some alternative options with you.");
-}
+} //TESTED, code working correctly.
