@@ -10,3 +10,7 @@ var deluxeSpend = 350
 if(clientSpend >= deluxeSpend){
 	//Production can begin
 	console.log("Let's get the ball rolling and start the production!!");
+
+}else if (clientSpend >= standardSpend){
+	//Production can begin, but will be limited
+	console.log("Based on you budget, we can begin production, but with limited production resources.");
