@@ -4,6 +4,17 @@
 //prompt 1 asking user to input the current temperature
 var tempOutside = prompt("What is the current temperature outside?");
 
+//Validate that the user enters something
+if(!isNaN(tempOutside)){
+	console.log("Inside of the IF Statement");
+}else{
+	//The user did not type in a number
+	//Prompt again to type in a number
+	console.log("Inside the ELSE Statement");
+
+	tempOutside=prompt("You didn't enter a number for the temperature.\n\nPlease enter a number for the current temperature.");
+}
+
 //if tempOutside is greater or equal to 70 degrees, you can open, otherwise help mom with laundry
 if(tempOutside >= 70){
 	console.log("GREAT!!  The weather is perfect for lemonade!!");
