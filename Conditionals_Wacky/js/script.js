@@ -5,6 +5,7 @@
 //var golfAvg = 83
 
 //Changed golfAvg from static number to providing a prompt for the user to enter in their own golf average.
+var golfAvg = prompt("Thank you for your interest in our 2014 Golf League.\n\nPlease enter a number to represent your current average golf score per round.");
 
 //Adding IF/ELSE statement to determine if the user is good enough for the league
 if(golfAvg <= 82){
