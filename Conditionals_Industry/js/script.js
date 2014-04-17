@@ -9,7 +9,9 @@ var standardSpend = 250
 var deluxeSpend = 350
 
 //Need validation added to determine if the customer input a number.
-
+if(isNan(clientSpend)){
+	console.log("IF Statement");
+}
 
 if(clientSpend >= deluxeSpend){
 	//Production can begin
