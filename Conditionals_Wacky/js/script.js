@@ -7,6 +7,8 @@
 //Changed golfAvg from static number to providing a prompt for the user to enter in their own golf average.
 var golfAvg = prompt("Thank you for your interest in our 2014 Golf League.\n\nPlease enter a number to represent your current average golf score per round."); //code tested, working correctly.
 
+//Need validation added to determine if the customer input a number.
+
 //Adding IF/ELSE statement to determine if the user is good enough for the league
 if(golfAvg <= 82){
 	console.log("THAT'S GREAT!!  WELCOME TO THE 2014 GOLF LEAGUE!!\n\nYour average score per round is suitable for entry.");
