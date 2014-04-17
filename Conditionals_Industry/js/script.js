@@ -3,7 +3,7 @@
 //Determining the amoutn of money a business is looking to spend
 
 //clientSpend prompt asking user for what they are looking to spend
-var clientSpend = 270
+var clientSpend = prompt("Hello, how much do you have budgeted for your production cost?");
 var standardSpend = 250
 var deluxeSpend = 350
 
