@@ -9,3 +9,4 @@ if(golfAvg <= 82){
 	console.log("THAT'S GREAT!!  WELCOME TO THE 2014 GOLF LEAGUE!!\n\nYour average score per round is suitable for entry.");
 }else{
 	console.log("THAT'S TERRIBLE!!\n\nUnfortunately, your average golf score per round is not worthy enough for our league.  Please go practice and don't come back until you're better.");
+}
