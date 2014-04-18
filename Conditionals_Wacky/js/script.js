@@ -8,6 +8,14 @@
 var golfAvg = prompt("Thank you for your interest in our 2014 Golf League.\n\nPlease enter a number to represent your current average golf score per round."); //code tested, working correctly.
 
 //Need validation added to determine if the customer input a number.
+//Beginning with IF statement to determine if the information entered was a number
+if(!isNaN(golfAvg)){
+
+}else{
+
+	//user will be prompted if they don't enter a number in the space provided.
+	golfAvg=prompt("Ummm...that's not a number...perhaps your not cut out for this league after all.\n\nHere's one more chance...\n\nPlease enter a NUMBER to let us know your current average golf score per round.");
+}
 
 //Adding IF/ELSE statement to determine if the user is good enough for the league
 if(golfAvg <= 82){
