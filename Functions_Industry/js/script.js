@@ -6,6 +6,7 @@ function adSales(){
 	var sales = prompt("How many ads would you like to include in your monthly advertising package?");
 	var cost = alert("You have selected " + sales + " ads for the monthly package.  Each ad is $150 each.");
 	var total = (sales * 150);
+	console.log("Your total cost for the monthly production of your advertising campaign is $" + total + ".");
 }
 
 //console.log(total);
