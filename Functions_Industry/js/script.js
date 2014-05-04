@@ -9,6 +9,14 @@ function adSales(){
 	console.log("Your total cost for the monthly production of your advertising campaign is $" + total + ".");
 }
 
+//Need validation added to determine if the customer input a number.
+	if(!isNaN(sales)){
+	}else{
+		//The user did not type in a number
+		//Prompt again to type in a number
+		//console.log("ELSE Statement");
+		sales=prompt("You didn't enter a number to represent the number of ads you wish to add to your montly procudtion cost.\n\nPlease enter a number...");
+	}
 //console.log(total);
 adSales();
 adSales();
