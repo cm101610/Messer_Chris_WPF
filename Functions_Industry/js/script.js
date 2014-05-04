@@ -11,3 +11,4 @@ function adSales(){
 
 //console.log(total);
 adSales();
+adSales();
